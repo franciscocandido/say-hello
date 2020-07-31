@@ -3,6 +3,13 @@
 	font-family: 'Nunito', sans-serif;
 }
 
+:root {
+  --dark: #222831;
+  --gray: #393E46;
+  --blue: #00adb5;
+  --white: #EEEEEE;
+}
+
 html,
 body {
 	margin: 0;
