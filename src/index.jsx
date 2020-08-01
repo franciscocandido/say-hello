@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Login from './Pages/Login';
+
 import './main.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Hello World</h1>
+    <Login />
   </React.StrictMode>,
   document.getElementById('root'),
 );
