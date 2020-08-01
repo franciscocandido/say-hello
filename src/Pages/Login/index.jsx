@@ -1,10 +1,12 @@
 import React from 'react';
 
-import Menu from '../../Components/Menu';
+import DefaultPage from '../../Components/DefaultPage';
 
 function Login() {
   return (
-    <Menu />
+    <DefaultPage>
+      <h1>Login Page</h1>
+    </DefaultPage>
   );
 }
 
