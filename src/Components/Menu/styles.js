@@ -13,11 +13,12 @@ export const Navbar = styled.nav`
   }
 `;
 
-export const BrandIcon = styled.h1`
+export const BrandIcon = styled.a`
   color: var(--white);
   padding-left: 50px;
   font-size: 30px;
   font-weight: 800;
+  text-decoration: none;
   margin: 0;
   @media (max-width: 800px) {
     font-size: 25px;
