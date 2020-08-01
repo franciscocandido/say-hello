@@ -7,7 +7,7 @@ export const PageFooter = styled.footer`
   justify-content: space-between;
   width: 100%;
   height: 60px;
-  background: var(--dark);
+  background: var(--primary);
 `;
 
 export const IconsDiv = styled.div`
@@ -26,7 +26,7 @@ export const FooterIcon = styled.i`
   font-size: 30px;
   transition: 0.2s;
   &:hover {
-    color: var(--blue);
+    color: var(--support);
   }
 `;
 

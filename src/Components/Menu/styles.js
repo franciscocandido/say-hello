@@ -7,7 +7,7 @@ export const Navbar = styled.nav`
   align-items: center;
   width: 100%;
   height: 60px;
-  background: var(--dark);
+  background: var(--primary);
   @media (max-width: 800px) {
     justify-content: center;
   }

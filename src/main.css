@@ -4,10 +4,10 @@
 }
 
 :root {
-  --dark: #222831;
-  --gray: #393E46;
-  --blue: #00adb5;
-  --white: #EEEEEE;
+  --primary: #0D1B2A;
+  --secondary: #1B263B;
+  --support: #778DA9;
+  --white: #E0E1DD;
 }
 
 html,
@@ -18,4 +18,11 @@ body {
 
 a {
 	color: inherit;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
