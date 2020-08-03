@@ -1,6 +1,6 @@
 # Running and Contributing
 
-### How to run project
+### Run the project
 1. Clone this repository
 2. Install the dependencies: `yarn`<br>
 Warning: if you only have the npm can install the yarn [here](https://yarnpkg.com/getting-started/install).

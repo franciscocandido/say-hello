@@ -6,9 +6,9 @@
 A project in which the only goal is to say hello in your native language<br>
 The inspiration for this project came completely from the [app-ideas](https://github.com/florinpop17/app-ideas) repository
 
-## Contributing
+## Running and Contributing
 You can see the roadmap (which are actually user stories) [here](https://github.com/franciscocandido/say-hello/issues/1)<br>
-Want to contribute? [Follow these recommendations](https://github.com/franciscocandido/say-hello/blob/master/.github/CONTRIBUTING.md).
+Do you want to know how to execute and/or contribute to the project? [Click here](https://github.com/franciscocandido/say-hello/blob/master/.github/CONTRIBUTING.md).
 
 ## License
 
