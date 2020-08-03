@@ -1,7 +1,7 @@
 # Say Hello
-![GitHub](https://img.shields.io/github/license/franciscocandido/say-hello)
-![David](https://img.shields.io/david/franciscocandido/say-hello)
-![GitHub last commit](https://img.shields.io/github/last-commit/franciscocandido/say-hello)
+![GitHub](https://img.shields.io/github/license/franciscocandido/say-hello?style=flat-square)
+![David](https://img.shields.io/david/franciscocandido/say-hello?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/franciscocandido/say-hello?style=flat-square)
 
 A project in which the only goal is to say hello in your native language<br>
 The inspiration for this project came completely from the [app-ideas](https://github.com/florinpop17/app-ideas) repository
