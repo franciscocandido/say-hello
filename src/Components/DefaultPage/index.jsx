@@ -19,7 +19,8 @@ function DefaultPage({ children }) {
 }
 
 DefaultPage.propTypes = {
-  children: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  children: PropTypes.object.isRequired,
 };
 
 export default DefaultPage;
