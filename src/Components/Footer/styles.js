@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 export const PageFooter = styled.footer`
   display: flex;
   align-items: center;
@@ -20,7 +22,7 @@ export const IconsDiv = styled.div`
   }
 `;
 
-export const FooterIcon = styled.i`
+export const FooterIcon = styled(FontAwesomeIcon)`
   color: var(--white);
   font-size: 30px;
   transition: 0.2s;
