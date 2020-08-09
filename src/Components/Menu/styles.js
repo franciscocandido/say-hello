@@ -13,7 +13,7 @@ export const Navbar = styled.nav`
 `;
 
 export const BrandIcon = styled.a`
-  color: var(--white);
+  color: var(--text);
   padding-left: 50px;
   font-size: 30px;
   font-weight: 800;

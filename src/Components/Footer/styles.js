@@ -9,6 +9,11 @@ export const PageFooter = styled.footer`
   width: 100%;
   height: 60px;
   background: var(--primary);
+  @media (max-width: 800px) {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+  }
 `;
 
 export const IconsDiv = styled.div`
@@ -17,13 +22,14 @@ export const IconsDiv = styled.div`
   width: 130px;
   padding-left: 50px;
   @media (max-width: 800px) {
-    padding-left: 20px;
+    padding-left: 0;
+    margin-top: 10px;
     width: 100px;
   }
 `;
 
 export const FooterIcon = styled(FontAwesomeIcon)`
-  color: var(--white);
+  color: var(--text);
   font-size: 30px;
   transition: 0.2s;
   &:hover {
@@ -32,11 +38,11 @@ export const FooterIcon = styled(FontAwesomeIcon)`
 `;
 
 export const CopyText = styled.small`
-  color: var(--white);
+  color: var(--text);
   font-weight: 700;
   padding-right: 50px;
   font-size: 15px;
   @media (max-width: 800px) {
-    padding-right: 20px;
+    padding-right: 0;
   }
 `;
