@@ -1,9 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Container, Label, InputField } from './styles';
+import { ErrorMessage } from 'formik';
 
-function Input({ id, label, ...rest }) {
+import {
+  Container, Label, ErrorField, InputField,
+} from './styles';
+
+function Input({
+  id, label, name, ...rest
+}) {
   return (
     <Container>
       <Label htmlFor={id}>
@@ -11,8 +17,12 @@ function Input({ id, label, ...rest }) {
         {' '}
         <small>*</small>
       </Label>
+      <ErrorField>
+        <ErrorMessage name={name} />
+      </ErrorField>
       <InputField
         id={id}
+        name={name}
         {...rest}
       />
     </Container>
@@ -22,6 +32,7 @@ function Input({ id, label, ...rest }) {
 Input.propTypes = {
   id: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
 };
 
 export default Input;

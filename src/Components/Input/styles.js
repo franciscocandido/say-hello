@@ -13,6 +13,11 @@ export const Label = styled.label`
   }
 `;
 
+export const ErrorField = styled.div`
+  font-weight: bold;
+  color: #E3281B;
+`;
+
 export const InputField = styled.input`
   height: 80px;
   width: 300px;
