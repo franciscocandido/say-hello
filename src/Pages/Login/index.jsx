@@ -15,7 +15,7 @@ function Login() {
   // Language Selector
   const arraySize = Languages.languages.length;
   const languagesOptions = [];
-  for (var c = 0; c < arraySize; c += 1) {
+  for (let c = 0; c < arraySize; c += 1) {
     languagesOptions
       .push(
         <option
@@ -29,19 +29,26 @@ function Login() {
 
   const initialValues = {
     username: '',
+    language: '',
   };
 
   const validate = yup.object().shape({
     username: yup.string()
-      .max(15, 'Fifteen characters or less')
-      .required('This field is required'),
+      .max(15, '15 characters or less')
+      .required('Username field is required'),
+    language: yup.string(),
   });
+
+  function submit(data) {
+    console.log(data);
+  }
 
   return (
     <DefaultPage>
       <Formik
         initialValues={initialValues}
         validationSchema={validate}
+        onSubmit={submit}
       >
         {({
           values, handleChange, handleBlur, handleSubmit,
@@ -62,13 +69,17 @@ function Login() {
               <Select
                 id="languageSelect"
                 label="Select Language (Optional)"
-                defaultValue=""
+                defaultValue={values.language}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                name="language"
               >
                 <option disabled value="">Select a Language</option>
                 {languagesOptions}
               </Select>
               <Button
                 value="Login"
+                type="submit"
               />
             </Form>
           </Container>
