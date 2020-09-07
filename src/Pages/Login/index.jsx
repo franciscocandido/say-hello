@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import * as yup from 'yup';
 
 import { Formik, Form, Field } from 'formik';
+import { Redirect } from 'react-router-dom';
 
 import { Container } from './styles';
 
@@ -12,6 +13,7 @@ import Select from '../../Components/Select';
 import Languages from '../../Data/languages.json';
 
 function Login() {
+  const [Submitted, setSubmitted] = useState(false);
   // Language Selector
   const arraySize = Languages.languages.length;
   const languagesOptions = [];
@@ -40,7 +42,12 @@ function Login() {
   });
 
   function submit(data) {
-    console.log(data);
+    const userUsername = data.username;
+    const userLanguage = data.language;
+
+    localStorage.setItem('@sayhello/username', userUsername);
+    localStorage.setItem('@sayhello/language', userLanguage);
+    setSubmitted(true);
   }
 
   return (
@@ -82,6 +89,9 @@ function Login() {
                 type="submit"
               />
             </Form>
+            {Submitted && (
+              <Redirect to="/hello" />
+            )}
           </Container>
         )}
       </Formik>
