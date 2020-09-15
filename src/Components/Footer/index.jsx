@@ -3,7 +3,7 @@ import React from 'react';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import {
-  PageFooter, IconsDiv, FooterIcon, CopyText,
+  PageFooter, IconsDiv, FooterIcon, CopyText, Thanks
 } from './styles';
 
 function Footer() {
@@ -20,12 +20,12 @@ function Footer() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/_FurFles_"
+          href="https://twitter.com/FurFlespspspsps"
         >
           <FooterIcon icon={faTwitter} />
         </a>
       </IconsDiv>
-      <CopyText>&copy; 2020 - Francisco Cândido</CopyText>
+      <Thanks>Special thanks for Lealder04</Thanks>
     </PageFooter>
   );
 }

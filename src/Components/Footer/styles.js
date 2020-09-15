@@ -12,7 +12,7 @@ export const PageFooter = styled.footer`
   @media (max-width: 800px) {
     flex-direction: column;
     justify-content: space-around;
-    height: 80px;
+    height: 90px;
   }
 `;
 
@@ -37,7 +37,7 @@ export const FooterIcon = styled(FontAwesomeIcon)`
   }
 `;
 
-export const CopyText = styled.small`
+export const Thanks = styled.small`
   color: var(--text);
   font-weight: 700;
   padding-right: 50px;
