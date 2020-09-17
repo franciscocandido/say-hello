@@ -3,7 +3,7 @@ import React from 'react';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import {
-  PageFooter, IconsDiv, FooterIcon, CopyText, Thanks
+  PageFooter, IconsDiv, FooterIcon, Thanks,
 } from './styles';
 
 function Footer() {

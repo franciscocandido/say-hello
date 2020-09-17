@@ -1,4 +1,10 @@
 # Say Hello
+
+<p align="center">
+<img src="https://github.com/franciscocandido/say-hello/blob/master/.github/images/logo.jpeg"></img><br>
+</div>
+</p>
+
 ![GitHub](https://img.shields.io/github/license/franciscocandido/say-hello?style=flat-square)
 ![David](https://img.shields.io/david/franciscocandido/say-hello?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/franciscocandido/say-hello?style=flat-square)
