@@ -20,7 +20,7 @@ function Footer() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/FurFlespspspsps"
+          href="https://twitter.com/FurFlespspsps"
         >
           <FooterIcon icon={faTwitter} />
         </a>
