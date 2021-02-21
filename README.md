@@ -2,7 +2,7 @@
 
 <!-- Voltar linha antes de commitar -->
 <p align="center">
-<img width="200" height="200" src="https://github.com/franciscocandido/say-hello/raw/master/.github/images/logo.jpeg"></img><br>
+<img width="200" height="200" src="./.github/images/logo.jpeg"></img><br>
 </div>
 </p>
 
