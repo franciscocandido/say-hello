@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import {
   PageFooter, IconsDiv, FooterIcon, Thanks,
@@ -16,13 +16,6 @@ function Footer() {
           href="https://github.com/franciscocandido"
         >
           <FooterIcon icon={faGithub} />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/FurFlespspsps"
-        >
-          <FooterIcon icon={faTwitter} />
         </a>
       </IconsDiv>
       <Thanks>Special thanks for Lealder04</Thanks>
